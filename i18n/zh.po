@@ -1,13 +1,14 @@
 # 
 # Translators:
 # 晓东 林 <13981924470@126.com>, 2024
+# easylin <lin_xd@126.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2024-06-24T08:00:25.810Z\n"
+"POT-Creation-Date: 2024-08-27T05:56:11.774Z\n"
 "PO-Revision-Date: 2024-06-24 10:02+0000\n"
-"Last-Translator: 晓东 林 <13981924470@126.com>, 2024\n"
+"Last-Translator: easylin <lin_xd@126.com>, 2024\n"
 "Language-Team: Chinese (https://app.transifex.com/hisp-uio/teams/100509/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,8 +16,58 @@ msgstr ""
 "Language: zh\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgid "Couldn't find a monthly period for weekly period id \"{{periodId}}\""
+msgstr "无法为周周期 ID \"{{periodId}}\" 找到月周期"
+
+msgid "Couldn't find a weekly period for weekly period id \"{{periodId}}\""
+msgstr "无法找到周周期 ID \"{{periodId}}\" 的周周期"
+
+msgid "Couldn't handle unknown period id \"{{periodId}}\""
+msgstr "无法处理未知周期 ID \"{{periodId}}\""
+
+msgid "Could not find a period type for period id \"{{periodId}}\""
+msgstr "无法为周期 ID \"{{periodId}}\" 找到周期类型"
+
+msgid "Could not determine a period type for period id \"{{periodId}}\""
+msgstr "无法确定周期 ID \"{{periodId}}\" 的周期类型"
+
+msgid "Couldn't find a period type for weekly period id \"{{periodId}}\""
+msgstr "找不到周周期 ID \"{{periodId}}\" 的周期类型"
+
 msgid "Bi-Week"
 msgstr "两周"
 
 msgid "Week"
 msgstr "周"
+
+msgid "Date string is invalid, received \"{{dateString}}\""
+msgstr "日期字符串无效，收到 \"{{dateString}}\""
+
+msgid ""
+"Date string format does not match the specified format. Expected {{format}} "
+"but got {{detectedFormat}}."
+msgstr "日期字符串格式与指定格式不符。预期为{{format}} ，但得到的是{{detectedFormat}} 。"
+
+msgid "Unrecognized date, received \"{{date}}\""
+msgstr "未确认日期，收到 \"{{date}}\""
+
+msgid "Year {{year}} is out of range."
+msgstr "年{{year}} 已超出范围。"
+
+msgid "Month {{month}} is out of range | 1 <= {{month}} <= 12."
+msgstr "月{{month}} 超出范围 | 1 <={{month}} <= 12。"
+
+msgid "Day {{day}} is out of range | 1 <= {{day}} <= {{daysInMonth}}."
+msgstr "日{{day}} 超出范围 | 1 <={{day}} <={{daysInMonth}} 。"
+
+msgid "Date is not given"
+msgstr "未提供日期"
+
+msgid ""
+"Date {{dateString}} is less than the minimum allowed date {{minDateString}}."
+msgstr "日期{{dateString}} 小于允许的最小日期{{minDateString}} 。"
+
+msgid ""
+"Date {{dateString}} is greater than the maximum allowed date "
+"{{maxDateString}}."
+msgstr "日期{{dateString}} 大于允许的最大日期{{maxDateString}} 。"

@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Jiří Podhorecký, 2024
+# Jiří Podhorecký <jirka.p@volny.cz>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2024-06-24T08:00:25.810Z\n"
+"POT-Creation-Date: 2024-08-27T05:56:11.774Z\n"
 "PO-Revision-Date: 2024-06-24 10:02+0000\n"
-"Last-Translator: Jiří Podhorecký, 2024\n"
+"Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2024\n"
 "Language-Team: Czech (https://app.transifex.com/hisp-uio/teams/100509/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,8 +15,65 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
+msgid "Couldn't find a monthly period for weekly period id \"{{periodId}}\""
+msgstr "Nepodařilo se najít měsíční období pro týdenní období id \"{{periodId}}\""
+
+msgid "Couldn't find a weekly period for weekly period id \"{{periodId}}\""
+msgstr ""
+"Nepodařilo se najít týdenní období pro ID týdenního období \"{{periodId}}\""
+
+msgid "Couldn't handle unknown period id \"{{periodId}}\""
+msgstr "Nelze zpracovat neznámé id období \"{{periodId}}\""
+
+msgid "Could not find a period type for period id \"{{periodId}}\""
+msgstr "Nepodařilo se najít typ období pro id období \"{{periodId}}\""
+
+msgid "Could not determine a period type for period id \"{{periodId}}\""
+msgstr "Nepodařilo se určit typ období pro id období \"{{periodId}}\""
+
+msgid "Couldn't find a period type for weekly period id \"{{periodId}}\""
+msgstr "Nepodařilo se najít typ období pro id týdenního období \"{{periodId}}\""
+
 msgid "Bi-Week"
 msgstr "Dvoutýden"
 
 msgid "Week"
 msgstr "Týden"
+
+msgid "Date string is invalid, received \"{{dateString}}\""
+msgstr "Datový řetězec je neplatný, přijato \"{{dateString}}\""
+
+msgid ""
+"Date string format does not match the specified format. Expected {{format}} "
+"but got {{detectedFormat}}."
+msgstr ""
+"Formát řetězce datumu neodpovídá zadanému formátu. Očekáváno {{format}}, ale"
+" vráceno {{detectedFormat}}."
+
+msgid "Unrecognized date, received \"{{date}}\""
+msgstr "Neuznané datum, přijato \"{{date}}\""
+
+msgid "Year {{year}} is out of range."
+msgstr "Rok {{year}} je mimo rozsah."
+
+msgid "Month {{month}} is out of range | 1 <= {{month}} <= 12."
+msgstr "Měsíc {{month}} je mimo rozsah | 1 <= {{month}} <= 12."
+
+msgid "Day {{day}} is out of range | 1 <= {{day}} <= {{daysInMonth}}."
+msgstr "Den {{day}} je mimo rozsah | 1 <= {{day}} <= {{daysInMonth}}."
+
+msgid "Date is not given"
+msgstr "Datum není uvedeno"
+
+msgid ""
+"Date {{dateString}} is less than the minimum allowed date {{minDateString}}."
+msgstr ""
+"Datum {{dateString}} je menší než minimální povolené datum "
+"{{minDateString}}."
+
+msgid ""
+"Date {{dateString}} is greater than the maximum allowed date "
+"{{maxDateString}}."
+msgstr ""
+"Datum {{dateString}} je větší než maximální povolené datum "
+"{{maxDateString}}."
