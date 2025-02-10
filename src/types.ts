@@ -9,6 +9,10 @@ export type WeekDayFormat = 'narrow' | 'short' | 'long'
 
 export type PickerOptions = Partial<ResolvedLocaleOptions>
 
+export type PickerOptionsWithResolvedCalendar = Omit<PickerOptions, 'calendar'> & {
+    calendar: Temporal.CalendarProtocol 
+}
+
 export type ResolvedLocaleOptions = {
     calendar: SupportedCalendar
     locale: string

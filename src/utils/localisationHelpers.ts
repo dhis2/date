@@ -5,7 +5,11 @@ import {
     customCalendars,
     CustomCalendarTypes,
 } from '../custom-calendars'
-import { PickerOptions, SupportedCalendar } from '../types'
+import {
+    PickerOptions,
+    PickerOptionsWithResolvedCalendar,
+    SupportedCalendar,
+} from '../types'
 import { formatDate, isCustomCalendar } from './helpers'
 
 const getPartialLocaleMatch: (
@@ -137,7 +141,7 @@ const localiseMonth = (
 
 export const localiseWeekDayLabel = (
     zdt: Temporal.ZonedDateTime,
-    localeOptions: PickerOptions
+    localeOptions: PickerOptionsWithResolvedCalendar
 ) => {
     if (!localeOptions.calendar) {
         throw new Error('no calendar provided to localise function')
